@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-sm h-fit rounded-2xl overflow-hidden relative shadow-lg bg-white p-4 mx-2 my-auto text-[#F8F1E5]"
+    class="max-w-sm h-fit rounded-2xl overflow-hidden relative shadow-lg bg-white p-4 my-auto text-[#F8F1E5]"
   >
     <div class="w-full aspect-[1.5] relative">
       <img

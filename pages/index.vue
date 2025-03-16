@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-2">
+  <div class="flex flex-col gap-1">
     <hero />
     <div class="container mx-auto">
       <div v-if="products" class="flex flex-wrap gap-1 gap-y-2 justify-evenly">

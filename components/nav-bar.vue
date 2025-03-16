@@ -4,22 +4,25 @@
       class="h-10 min-w-96 max-w-[650px] w-full mx-auto grid gap-2 place-content-center grid-cols-4 text-[#F8F1E5] font-bold tracking-wide"
     >
       <NuxtLink
-        class="text-center hover:opacity-70 text-[#0B1E36] tracking-wider"
+        class="flex justify-center items-center gap-3 hover:opacity-70 text-[#0B1E36] tracking-wider"
         v-for="(route, i) in routes"
         :key="route"
         :to="route"
-        >{{ i }}</NuxtLink
       >
+        <img :src="`/${i}.png`" class="w-6.5" />
+        <div class="hidden sm:block">
+          {{ i }}
+        </div>
+      </NuxtLink>
     </div>
   </div>
 </template>
 
 <script setup>
-
 let routes = ref({
   Home: "/",
   Categories: "/category/general",
-  Account: "/account",
-  Cart: "/cateagory",
+  User: "/user",
+  Cart: "/cart",
 });
 </script>

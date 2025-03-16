@@ -4,7 +4,7 @@
       <div
         class="w-full min-w-52 max-w-[650px] relative overflow-hidden rounded-3xl"
       >
-        <input type="text" class="bg-white focus:outline-0 w-full p-2" />
+        <!-- <input type="text" class="bg-white focus:outline-0 w-full p-2" /> -->
         <button
           class="absolute right-0 top-0 h-full bg-[#fa0] aspect-square transition-all hover:opacity-35 cursor-pointer"
         >
