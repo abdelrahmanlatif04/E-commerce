@@ -14,4 +14,10 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", href: "/logo.svg" }],
     },
   },
+  router: {
+    options: {
+      linkActiveClass: "active invert",
+      linkExactActiveClass: "exact-active",
+    },
+  },
 });

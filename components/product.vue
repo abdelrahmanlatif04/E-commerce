@@ -54,8 +54,9 @@
 
         <button
           class="bg-[#CBA135] border-[3px] border-[#CBA135] cursor-pointer transition-all text-[#F8F1E5] py-2 rounded-lg shadow hover:text-[#CBA135] font-semibold hover:bg-transparent hover:shadow-xl self-center w-32 text-center"
+          @click="useRouter().push(`/product/${product.id}`)"
         >
-          Add to Cart
+          See product
         </button>
       </div>
     </div>

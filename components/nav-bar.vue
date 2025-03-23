@@ -4,7 +4,7 @@
       class="h-10 min-w-96 max-w-[650px] w-full mx-auto grid gap-2 place-content-center grid-cols-4 text-[#F8F1E5] font-bold tracking-wide"
     >
       <NuxtLink
-        class="flex justify-center items-center gap-3 hover:opacity-70 text-[#0B1E36] tracking-wider"
+        class="flex justify-center items-center gap-3 hover:opacity-70 text-black tracking-wider"
         v-for="(route, i) in routes"
         :key="route"
         :to="route"
@@ -26,3 +26,9 @@ let routes = ref({
   Cart: "/cart",
 });
 </script>
+
+<style>
+.router-link-active {
+  @apply invert;
+}
+</style>
