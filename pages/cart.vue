@@ -56,6 +56,7 @@
 
         <button
           class="w-2/3 mx-auto relative left-1/2 -translate-x-1/2 bg-[#cba135] text-white py-2 rounded-md font-medium hover:bg-[#800020] transition-all self-center cursor-pointer"
+          @click="location.reload()"
         >
           Proceed to Checkout
         </button>
