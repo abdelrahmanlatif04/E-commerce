@@ -13,7 +13,7 @@
         <div
           v-for="(item, index) in cart"
           :key="index"
-          class="flex items-center gap-4 p-4 bg-white rounded-lg shadow relative aspect-[6.5]"
+          class="flex items-center gap-4 p-4 mb-4 bg-white rounded-lg shadow relative aspect-[6.5]"
         >
           <img
             :src="item.image"
