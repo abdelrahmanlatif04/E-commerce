@@ -37,11 +37,9 @@
         Price :
         <span class="text-[#CBA135]"
           >${{
-          this.product.discount
-            ? (this.product.price * (1 - this.product.discount / 100)).toFixed(
-                2
-              )
-            : this.product.price
+            product.discount
+              ? (product.price * (1 - product.discount / 100)).toFixed(0)
+              : product.price
           }}</span
         >
         <span v-if="product.discount" class="text-red-400 line-through ml-1">
