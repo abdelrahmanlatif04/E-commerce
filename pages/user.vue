@@ -40,10 +40,15 @@
 const user = ref(null);
 
 onMounted(() => {
+
+  
+
   fetch("https://fakestoreapi.com/users/1")
     .then((res) => res.json())
     .then((data) => {
       user.value = data;
+      // console.log(user.value);
+      localStorage.setItem("user", JSON.stringify(user.value));
     })
     .catch((error) => console.error("Error fetching user:", error));
 });
